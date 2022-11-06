@@ -1,0 +1,89 @@
+
+  @font-face {
+    font-family: holder_medium;
+    src: url(../fonts/holder/HolderBold_PERSONAL_USE_ONLY.otf);
+  }
+
+  html{
+    box-sizing:border-box;
+  }
+  *,::before, ::after{
+    box-sizing:inherit;
+  }
+  body{
+    font-family:robotronica, lato, sans-serif;
+    width:100vw;
+    margin:0 auto;
+    background-color: beige;
+  }
+
+header, section{
+    /* border:1px solid black; */
+    font-size: large;
+    
+}
+header,h3, .outcome{
+  font-family: holder_medium;
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    font-size: 1000;
+    /* background-color: blanchedalmond; */
+    margin:0;
+}
+#game{
+    margin: 3rem auto 0 auto;
+    height: 80vh;
+}
+i{
+
+    border: .4rem solid rgb(0, 0, 0);
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .1s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+  }
+
+  section{
+   display: flex;
+   justify-content: space-around;
+   padding: 2rem;
+   text-align: center;
+  }
+  /* section div{
+    border: .4rem solid rgb(0, 0, 0);
+  } */
+  .outcome{
+    margin: 2rem auto;
+    text-align: center;
+    height: 8vh;
+    /* border:1px solid black; */
+  }
+  .scores{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+  }
+  .played{
+    transform: scale(1.2);
+    
+  }
+  .final-outcome{
+    height:80vh;
+    width:100vw;
+   
+     display:none; 
+    text-align: center;
+    
+  }
+  /* .winner-message, .another-game{
+   text-align: center;
+  } */
